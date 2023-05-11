@@ -7,7 +7,7 @@
     --bg-black-50: #e8dfec;
     --text-black-900: #302e4d;
     --text-black-700: #504e70;
-    --text-shadow-700: 0px 23px 49px 0px rgba(0, 0, 0, 0.10);
+    --text-shadow-700: 0px 23px 49px 0px rgba(0, 0, 0, 0.25);
 }
 
 body.dark {
@@ -17,7 +17,7 @@ body.dark {
     --bg-opacity-100: #b6b6b670;
     --text-black-900: #f2f2fc;
     --text-black-700: #c9c9c9;
-    --text-shadow-700: 0px 23px 49px 0px rgb(255 255 255 / 10%);
+    --text-shadow-700: 0px 23px 49px 0px rgb(255 255 255 / 20%);
 }
 
 body {
@@ -78,7 +78,7 @@ body {
     right: 0;
     z-index: 10;
     opacity: 1;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out !important;
 }
 
 .hidden {
@@ -192,7 +192,7 @@ body {
     transform-origin: center;
     transform: scale(0);
     border-radius: 0.25rem;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease !important;
 
 }
 
@@ -205,8 +205,8 @@ body {
 }
 
 .shadow-dark {
-    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
-    /* box-shadow: var(--text-shadow-700); */
+    /* box-shadow: 0 0 20px rgba(48, 46, 77, 0.35); */
+    box-shadow: var(--text-shadow-700);
 }
 
 /* ====== aside ========*/
@@ -222,7 +222,7 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 11;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out ;
 }
 
 .aside .logo {
@@ -269,7 +269,7 @@ body {
     right: 0;
 }
 
-.aside .nav-toggler {
+.nav-toggler {
     height: 40px;
     width: 40px;
     border: 1px solid var(--bg-black-50);
@@ -282,7 +282,8 @@ body {
     display: none;
     justify-content: center;
     align-items: center;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out !important;
+    z-index: 20;
 }
 
 .nav-header {
@@ -303,7 +304,7 @@ body {
     border-radius: 5px;
 }
 
-.aside .nav-toggler span {
+.nav-toggler span {
     height: 2px;
     width: 25px;
     background: var(--skin-color);
@@ -311,12 +312,12 @@ body {
     position: relative;
 }
 
-.aside .nav-toggler.open span {
+.nav-toggler.open span {
     background-color: transparent;
     width: 18px;
 }
 
-.aside .nav-toggler span::before {
+.nav-toggler span::before {
     content: '';
     height: 2px;
     width: 18px;
@@ -326,12 +327,12 @@ body {
     left: 0;
 }
 
-.aside .nav-toggler.open span::before {
+.nav-toggler.open span::before {
     transform: rotate(45deg);
     top: 0;
 }
 
-.aside .nav-toggler span::after {
+.nav-toggler span::after {
     content: '';
     height: 2px;
     width: 18px;
@@ -341,7 +342,7 @@ body {
     left: 0;
 }
 
-.aside .nav-toggler.open span::after {
+.nav-toggler.open span::after {
     transform: rotate(-45deg);
     top: 0;
 }
@@ -843,7 +844,7 @@ h4.my-profession {
     border:1px solid var(--bg-black-100);
     box-shadow: var(--text-shadow-700);
     margin: 20px;
-    transition:  0.6s;
+    transition:  0.6s !important;
 }
 
 .services_card img {
@@ -852,7 +853,7 @@ h4.my-profession {
     height: auto;
     margin: auto;
     border:1px solid var(--bg-black-100);
-    transition: 0.6s ;
+    transition: 0.6s !important;
 
 }
 .services_card:hover{
@@ -914,7 +915,7 @@ h4.my-profession {
     z-index: 102;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out !important;
 }
 
 .portfolio_popup.open {
@@ -1080,7 +1081,7 @@ h4.my-profession {
     transition: 
       top 0.3s ease,
       color 0.3s ease,
-      font-size 0.3s ease;
+      font-size 0.3s ease !important;
   }
   
   .custom-field input.dirty + .placeholder,
@@ -1123,7 +1124,7 @@ h4.my-profession {
       linear-gradient(90deg, var(--text-black-700), var(--text-black-700)) center bottom/0 0.15em no-repeat,
       linear-gradient(90deg, var(--skin-color),var(--skin-color)) left bottom/100% 0.15em no-repeat,
       linear-gradient(90deg, var(--bg-black-100), var(--bg-black-100)) left bottom/100% no-repeat;
-    transition: background-size 1s ease;
+    transition: background-size 1s ease !important;
   }
   
   .custom-field.two input.dirty,
@@ -1140,7 +1141,7 @@ h4.my-profession {
       linear-gradient(90deg, var(--text-black-700), var(--text-black-700)) center bottom/0 0.15em no-repeat,
       linear-gradient(90deg, var(--skin-color),var(--skin-color)) left bottom/100% 0.15em no-repeat,
       linear-gradient(90deg, var(--bg-black-100), var(--bg-black-100)) left bottom/100% no-repeat;
-    transition: background-size 1s ease;
+    transition: background-size 1s ease !important;
   }
   
   .custom-field.two textarea.dirty,
@@ -1191,16 +1192,16 @@ h4.my-profession {
 @media screen and (max-width: 1199px) {
     .aside {
         left: -270px;
-        transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out !important;
     }
 
-    .aside .nav-toggler {
+    .nav-toggler {
         display: flex;
         left: 10px;
-        transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out !important;
     }
 
-    .aside .nav-toggler.open {
+    .nav-toggler.open {
         left: 280px;
     }
 
@@ -1269,7 +1270,7 @@ h4.my-profession {
 
 /* footer  */
 .footer_section{
-    background: var(--text-black-900);
+    background: var(--skin-color);
 }
 .footer_section p{
     padding: 20px;
@@ -1277,6 +1278,6 @@ h4.my-profession {
     text-align: center;
 }
 .footer_section p a{
-    color: var(--skin-color);
+    color: var(--text-black-900);
     text-decoration: underline;
 }
