@@ -391,39 +391,3 @@
     padding-right: 0;
     border-right: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.small-section-tittle2 .ion{
-    float: left;
-    margin-right: 12px;
-}
-.small-section-tittle2 h4{
-    color: var(--dark);
-    font-size: 20px;
-}
-
-.job-category-listing h4{
-    font-size: 18px;
-    margin-top: 25px;
-    margin-bottom: 15px;
-}
-.select-Categories,
-.job-category-listing .select-job-items2{
-    margin-bottom: 20px;
-}
-.job-category-listing  .container_filter .checkmark{
-    padding: 5px;
-}
