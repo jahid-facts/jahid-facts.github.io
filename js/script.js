@@ -3,7 +3,8 @@ var typed = new Typed('.typing', {
     '',
     'Web Developer',
     'Web Designer',
-    'Full Stack Web Developer',
+    'Laravl Developer',
+    'WordPress Developer',
     'Graphic Designer',
   ],
   smartBackspace: true, // Default value
@@ -83,6 +84,17 @@ function portfolioItemDetails(portfolioItem) {
   document.querySelector(".pp_thumbail img").src = portfolioItem.querySelector(".work_img").src;
   document.querySelector(".porfolio_popup_subtitle span").innerHTML = portfolioItem.querySelector(".work_title").innerHTML;
   document.querySelector(".porfolio_popup_body").innerHTML = portfolioItem.querySelector(".portfolio_item_details").innerHTML;
+}
+
+// actie menu 
+var header = document.getElementById("nav");
+var btns = header.getElementsByClassName("menu_item");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
 }
 
 
