@@ -3,9 +3,9 @@ var typed = new Typed('.typing', {
     '',
     'Web Developer',
     'Web Designer',
-    'Laravl Developer',
+    'Laravel Developer',
     'WordPress Developer',
-    'Graphic Designer',
+    'Graphics Designer',
   ],
   smartBackspace: true, // Default value
   typeSpeed: 50,
