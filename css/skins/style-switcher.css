@@ -63,7 +63,8 @@
     background: #fa5b0f;
 }
 .style-switcher .colors .color-3{
-    background: #37b182;
+    /* background: #37b182; */
+    background: #00c57d;
 }
 .style-switcher .colors .color-4{
     background: #4DABE0;
