@@ -247,7 +247,7 @@ body {
     color: var(--skin-color);
 }
 
-.aside .logo a::before {
+/* .aside .logo a::before {
     content: '';
     position: absolute;
     width: 20px;
@@ -267,7 +267,7 @@ body {
     border-right: 4px solid var(--skin-color);
     top: 0;
     right: 0;
-}
+} */
 
 .nav-toggler {
     height: 40px;
@@ -461,7 +461,6 @@ h4.my-profession {
     content: '';
     position: absolute;
     height: 100%;
-    /* padding: 47px; */
     width: 70%;
     border-radius: 15px;
     border: 5px dotted var(--skin-color);
@@ -511,7 +510,7 @@ h4.my-profession {
 .brand-info .brand-logo {
     padding: 20px 40px;
     background: #fdf9ff;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 /*======= about section ========*/
@@ -650,7 +649,7 @@ h4.my-profession {
     background: var(--bg-black-100);
     padding: 30px 15px;
     border: 1px solid var(--bg-black-50);
-    border-radius: 10px;
+    border-radius: 15px;
     width: 100%;
     position: relative;
 }
@@ -743,7 +742,7 @@ h4.my-profession {
 .work_container .work_img {
     width: 100%;
     height: auto;
-    border-radius: .25rem;
+    border-radius: 15px;
     margin-bottom: 15px;
 }
 
@@ -764,9 +763,9 @@ h4.my-profession {
 .work_item {
     cursor: pointer;
     color: var(--text-black-700);
-    padding: .25rem 2rem;
+    padding: .25rem 1.9rem;
     font-weight: 700;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid var(--skin-color);
 }
 
@@ -774,7 +773,7 @@ h4.my-profession {
     background-color: var(--bg-black-100);
     padding: 1.25rem;
     margin-top: 1.25rem;
-    border-radius: .25rem;
+    border-radius: 15px;
 }
 
 .portfolio_item_details {
@@ -842,7 +841,7 @@ h4.my-profession {
 .services_card {
     text-align: center;
     padding: 30px 30px;
-    border-radius: 5px;
+    border-radius: 15px;
     background: var(--bg-black-100);
     border:1px solid var(--bg-black-100);
     box-shadow: var(--text-shadow-700);
@@ -930,13 +929,13 @@ h4.my-profession {
     width: 100%;
     height: auto;
     padding: 0.5rem;
-    border-radius: 1rem;
+    border-radius: 15px;
 }
 
 .portfolio_popup_inner {
     background-color: var(--bg-black-900);
     width: 900px;
-    border-radius: .5rem;
+    border-radius: 15px;
     padding: 0.5rem;
     position: relative;
 }
@@ -981,7 +980,7 @@ h4.my-profession {
     background: var(--skin-opacity_background);
     height: 130px;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
     text-align: center;
     margin: 10px 0;
     box-shadow: var(--text-shadow-700);
