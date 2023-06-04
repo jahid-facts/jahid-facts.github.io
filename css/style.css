@@ -467,6 +467,11 @@ h4.my-profession {
     transform: rotate(343deg);
     z-index: -5;
     box-sizing: border-box;
+    transition: all 1s ease-in-out;
+
+}
+.home-img:hover:before {
+    transform: rotate(360deg);
 
 }
 
