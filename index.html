@@ -1,780 +1,1244 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jahid - Full stack web developer</title>
-    <link rel="shortcut icon" href="img/main_logo.webp" type="image/x-icon">
+    <link rel="shortcut icon" href="img/main_logo.webp" type="image/x-icon" />
     <!-- css file  -->
-    <link rel="stylesheet" href="css/skins/color-3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/skins/color-3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
-    <link rel="stylesheet" href="css/skins/style-switcher.css">
+    <link rel="stylesheet" href="css/skins/style-switcher.css" />
     <!-- <link rel="stylesheet" href="vendor/aos/aos.css"> -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
-    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
-    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
-    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
-    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
-    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="css/skins/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-3.css"
+      class="alternate-style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-4.css"
+      class="alternate-style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-5.css"
+      class="alternate-style"
+      title="color-5"
+      disabled
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- main container start  -->
     <div class="main-container">
-        <div class="nav-header" data-aos="fade-left" data-aos-duration="1000">
-           <a href="#home"><img src="img/logo.webp" alt=""></a> 
+      <div class="nav-header" data-aos="fade-left" data-aos-duration="1000">
+        <a href="#home"><img src="img/logo.webp" alt="" /></a>
+      </div>
+      <!-- aside start  -->
+      <div
+        class="nav-toggler shadow-dark"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+      >
+        <span></span>
+      </div>
+      <aside class="aside" data-aos="fade-right" data-aos-duration="1000">
+        <div class="logo">
+          <!-- <a href="#"><span>J</span>ahid</a> -->
+          <div>
+            <a href="#home">
+              <img style="width: 100px" src="img/main_logo.webp" alt="" />
+            </a>
+          </div>
         </div>
-        <!-- aside start  -->
-        <div class="nav-toggler shadow-dark" data-aos="fade-right" data-aos-duration="1000">
-            <span></span>
-        </div>
-        <aside class="aside" data-aos="fade-right" data-aos-duration="1000">
-            <div class="logo">
-                <!-- <a href="#"><span>J</span>ahid</a> -->
-               <div><a href="#home"> <img style="width: 100px;" src="img/main_logo.webp" alt=""> </a></div>
+        <ul class="nav" id="nav">
+          <li>
+            <a href="#home" class="menu_item active"
+              ><i class="fa fa-home"></i> Home</a
+            >
+          </li>
+          <li>
+            <a href="#about" class="menu_item"
+              ><i class="fa fa-user"></i> About</a
+            >
+          </li>
+          <li>
+            <a href="#services" class="menu_item"
+              ><i class="fa fa-list"></i> Services</a
+            >
+          </li>
+          <li>
+            <a href="#portfolio" class="menu_item"
+              ><i class="fa fa-briefcase"></i> Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="menu_item"
+              ><i class="fa fa-comments"></i> Contact</a
+            >
+          </li>
+          <div class="social_icon row">
+            <a href="https://github.com/jahid-facts/" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/jahid-facts/" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://www.facebook.com/jahid.facts/" target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://wa.me/01762703065" target="_blank"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </div>
+        </ul>
+      </aside>
+      <!-- aside end  -->
+      <!-- maind content start  -->
+      <div class="main-content">
+        <!-- home section start  -->
+        <section class="home section" id="home">
+          <div class="container">
+            <div class="row">
+              <div
+                class="home-img-top col-40"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+              >
+                <img src="img/jahid-t.jpg" alt="" />
+              </div>
+              <div class="home-info col-60">
+                <h3 class="hello" data-aos="fade-up" data-aos-duration="700">
+                  Hello, my name is <span class="name">Jahid Hasan</span>
+                </h3>
+                <h4
+                  class="my-profession"
+                  data-aos="fade-up"
+                  data-aos-duration="900"
+                >
+                  I`m a <span class="typing">web designer</span>
+                  <i class="fa-solid fa-pen-fancy"></i>
+                </h4>
+                <p data-aos="fade-up" data-aos-duration="1200">
+                  A web developer typically needs to have knowledge of several
+                  programming languages, such as HTML, CSS, JavaScript, and PHP,
+                  as well as frameworks and libraries like React, Angular, and
+                  jQuery. They must also be familiar with web development tools
+                  and technologies like Git, REST APIs, and cloud platforms like
+                  AWS.
+                </p>
+                <a
+                  href="img/Resume.pdf"
+                  target="_blank"
+                  data-aos="fade-up"
+                  data-aos-duration="1400"
+                  class="btn download_cv"
+                  >Download CV</a
+                >
+                <a
+                  href="#about"
+                  data-aos="fade-up"
+                  data-aos-duration="1400"
+                  class="btn hire-me"
+                  >Hire Me</a
+                >
+              </div>
+              <div
+                class="home-img col-40"
+                data-aos="fade-up"
+                data-aos-duration="1300"
+              >
+                <img src="img/jahid.jpg" alt="" />
+              </div>
             </div>
-            <ul class="nav" id="nav">
-                <li><a href="#home" class="menu_item active"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="#about" class="menu_item"><i class="fa fa-user"></i> About</a></li>
-                <li><a href="#services" class="menu_item"><i class="fa fa-list"></i> Services</a></li>
-                <li><a href="#portfolio" class="menu_item"><i class="fa fa-briefcase"></i> Portfolio</a></li>
-                <li><a href="#contact" class="menu_item"><i class="fa fa-comments"></i> Contact</a></li>
-                <div class="social_icon row">
-                    <a href="https://github.com/jahid-facts/" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/jahid-facts/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.facebook.com/jahid.facts/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://wa.me/01762703065" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </section>
+        <!-- home section end  -->
+        <!-- brand-info section start  -->
+        <section class="brand-info section">
+          <div class="row">
+            <div
+              class="col-40 brand-text"
+              data-aos="fade-up"
+              data-aos-duration="900"
+            >
+              <h3>Working with international marketpleace</h3>
+              <p>My fiverr account level one seller</p>
+            </div>
+            <div
+              class="col-20 brand-logo"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+            >
+              <img src="img/fiverr.png" alt="" />
+            </div>
+            <div
+              class="col-20 brand-logo"
+              data-aos="fade-up"
+              data-aos-duration="1400"
+            >
+              <img src="img/freelancer.png" alt="" />
+            </div>
+            <div
+              class="col-20 brand-logo"
+              data-aos="fade-up"
+              data-aos-duration="1600"
+            >
+              <img src="img/upwork.png" alt="" />
+            </div>
+          </div>
+        </section>
+        <!-- brand-info section end  -->
+        <!-- services section start  -->
+        <section class="services section" id="services">
+          <div class="row">
+            <div class="col-50">
+              <div class="row">
+                <div class="col-100">
+                  <div class="services_title">
+                    <h2 data-aos="fade-up" data-aos-duration="1000">
+                      My awesome
+                    </h2>
+                    <h3
+                      class="skin_color"
+                      data-aos="fade-up"
+                      data-aos-duration="1300"
+                    >
+                      Services
+                    </h3>
+                    <p data-aos="fade-up" data-aos-duration="1600">
+                      A good service should be reliable, efficient, and easy to
+                      use, with clear communication and transparent pricing. It
+                      should also be tailored to meet the specific needs and
+                      preferences of each customer.
+                    </p>
+                    <a
+                      href=""
+                      data-aos="fade-up"
+                      data-aos-duration="1800"
+                      class="btn"
+                      >Hire me</a
+                    >
+                  </div>
                 </div>
-            </ul>
-        </aside>
-        <!-- aside end  -->
-        <!-- maind content start  -->
-        <div class="main-content">
-            <!-- home section start  -->
-            <section class="home section " id="home">
-                <div class="container">
-                    <div class="row">
-                        <div class="home-img-top col-40" data-aos="fade-up" data-aos-duration="1200">
-                            <img src="img/jahid-t.jpg" alt="">
-                        </div>
-                        <div class="home-info col-60">
-                            <h3 class="hello" data-aos="fade-up" data-aos-duration="700">Hello, my name is <span class="name">Jahid Hasan</span></h3>
-                            <h4 class="my-profession" data-aos="fade-up" data-aos-duration="900">I`m a <span class="typing">web designer</span> <i
-                                    class="fa-solid fa-pen-fancy"></i></h4>
-                            <p data-aos="fade-up" data-aos-duration="1200">A web developer typically needs to have knowledge of several programming languages, such
-                                as HTML, CSS, JavaScript, and PHP, as well as frameworks and libraries like React,
-                                Angular, and jQuery. They must also be familiar with web development tools and
-                                technologies like Git, REST APIs, and cloud platforms like AWS.</p>
-                            <a href="img/Resume.pdf" target="_blank" data-aos="fade-up" data-aos-duration="1400" class="btn download_cv">Download CV</a>
-                            <a href="#about" data-aos="fade-up" data-aos-duration="1400" class="btn hire-me">Hire Me</a>
-                        </div>
-                        <div class="home-img col-40" data-aos="fade-up" data-aos-duration="1300" >
-                            <img src="img/jahid.jpg" alt="">
-                        </div>
-                    </div>
+                <div class="col-40"></div>
+                <div class="col-60" data-aos="fade-up" data-aos-duration="1400">
+                  <div class="services_card">
+                    <img src="img/web-des.webp" alt="Web Design" />
+                    <h4>Web Design</h4>
+                    <p>
+                      Web design is the process of creating the visual layout
+                      and user interface of a website. It involves the use of
+                      various design elements such as typography, color, images,
+                      and layout to create an aesthetically pleasing and
+                      functional website.
+                    </p>
+                  </div>
                 </div>
-            </section>
-            <!-- home section end  -->
-            <!-- brand-info section start  -->
-            <section class="brand-info section">
-                <div class="row">
-                    <div class="col-40 brand-text" data-aos="fade-up" data-aos-duration="900">
-                        <h3>Working with international marketpleace</h3>
-                        <p>My fiverr account level one seller </p>
-                    </div>
-                    <div class="col-20 brand-logo" data-aos="fade-up" data-aos-duration="1100">
-                        <img src="img/fiverr.png" alt="">
-                    </div>
-                    <div class="col-20 brand-logo" data-aos="fade-up" data-aos-duration="1400"><img src="img/freelancer.png" alt=""></div>
-                    <div class="col-20 brand-logo"data-aos="fade-up" data-aos-duration="1600"><img src="img/upwork.png" alt=""></div>
-                </div>
-            </section>
-            <!-- brand-info section end  -->
-            <!-- services section start  -->
-            <section class="services section" id="services">
-                <div class="row">
-                    <div class="col-50">
-                        <div class="row">
-                            <div class="col-100">
-                                <div class="services_title">
-                                    <h2 data-aos="fade-up" data-aos-duration="1000">My awesome</h2>
-                                    <h3 class="skin_color" data-aos="fade-up" data-aos-duration="1300">Services</h3>
-                                    <p data-aos="fade-up" data-aos-duration="1600"> A good service should be reliable, efficient, and easy to use, with clear
-                                        communication and transparent pricing. It should also be tailored to meet the
-                                        specific needs and preferences of each customer.</p>
-                                    <a href=""  data-aos="fade-up" data-aos-duration="1800" class="btn">Hire me</a>
-                                </div>
-                            </div>
-                            <div class="col-40"></div>
-                            <div class="col-60" data-aos="fade-up" data-aos-duration="1400">
-                                <div class="services_card">
-                                    <img src="img/web-des.webp" alt="Web Design">
-                                    <h4>Web Design</h4>
-                                    <p>Web design is the process of creating the visual layout and user interface of a
-                                        website. It involves the use of various design elements such as typography,
-                                        color, images, and layout to create an aesthetically pleasing and functional
-                                        website.</p>
-                                </div>
-                            </div>
-                            <!-- <div class="col-60" data-aos="fade-up" data-aos-duration="1400">
+                <!-- <div class="col-60" data-aos="fade-up" data-aos-duration="1400">
                                 <div class="services_card">
                                     <img src="img/wordpress.webp" alt="Web Design">
                                     <h4>WordPress</h4>
                                     <p>WordPress is a popular open-source content management system (CMS) used for creating and managing websites. It was first released in 2003 and has since become one of the most widely used CMS platforms in the world, with over 40% of all websites on the internet powered by WordPress.</p>
                                 </div>
                             </div> -->
-                        </div>
-                    </div>
-                    <div class="col-50">
-                        <div class="row">
-                            <div class="col-60" data-aos="fade-up" data-aos-duration="1400">
-                                <div class="services_card">
-                                    <img src="img/web-development.webp" alt="Web Development">
-                                    <h4>Web Development PHP & Laravel</h4>
-                                    <p>PHP Laravel is a popular web development framework that utilizes the PHP
-                                        programming language. It provides developers with a streamlined way to create
-                                        web applications, utilizing pre-built components and an intuitive syntax.</p>
-                                </div>
-                            </div>
-                            <div class="col-40"></div>
-                            <div class="col-30"></div>
-                            <div class="col-60" data-aos="fade-up" data-aos-duration="1400">
-                                <div class="services_card">
-                                    <img src="img/design.png" alt="Graphic Design">
-                                    <h4>Graphic Design</h4>
-                                    <p>Adobe Illustrator is a popular graphic design software used by professionals to
-                                        create vector graphics. Graphic designers use Illustrator to create logos,
-                                        icons, illustrations, infographics, and other types of visual content that
-                                        require high scalability and precision.</p>
+              </div>
+            </div>
+            <div class="col-50">
+              <div class="row">
+                <div class="col-60" data-aos="fade-up" data-aos-duration="1400">
+                  <div class="services_card">
+                    <img src="img/web-development.webp" alt="Web Development" />
+                    <h4>Web Development PHP & Laravel</h4>
+                    <p>
+                      PHP Laravel is a popular web development framework that
+                      utilizes the PHP programming language. It provides
+                      developers with a streamlined way to create web
+                      applications, utilizing pre-built components and an
+                      intuitive syntax.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-40"></div>
+                <div class="col-30"></div>
+                <div class="col-60" data-aos="fade-up" data-aos-duration="1400">
+                  <div class="services_card">
+                    <img src="img/design.png" alt="Graphic Design" />
+                    <h4>Graphic Design</h4>
+                    <p>
+                      Adobe Illustrator is a popular graphic design software
+                      used by professionals to create vector graphics. Graphic
+                      designers use Illustrator to create logos, icons,
+                      illustrations, infographics, and other types of visual
+                      content that require high scalability and precision.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- services section end  -->
+        <!-- skill section start  -->
+        <section class="skill_lang_section section">
+          <div class="row">
+            <div
+              class="col-100 section-title"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <h2>My Skill</h2>
+            </div>
+            <div class="col-100">
+              <div class="row gap-row">
+                <div
+                  class="skill_lang"
+                  data-aos="fade-up"
+                  data-aos-duration="1600"
+                >
+                  <img src="img/laravel.webp" alt="" />
+                  <h4>Laravel</h4>
+                </div>
+                <div
+                  class="skill_lang"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
+                  <img src="img/php.webp" alt="" />
+                  <h4>PHP</h4>
+                </div>
+                <div
+                  class="skill_lang"
+                  data-aos="fade-up"
+                  data-aos-duration="1100"
+                >
+                  <img src="img/react.webp" alt="" />
+                  <h4>React js</h4>
+                </div>
+                <div
+                  class="skill_lang"
+                  data-aos="fade-up"
+                  data-aos-duration="1100"
+                >
+                  <img src="img/nextjs.png" alt="" />
+                  <h4>Next js</h4>
+                </div>
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div
+                  class="skill_lang"
+                  data-aos="fade-up"
+                  data-aos-duration="1900"
+                >
+                  <img src="img/flutter.webp" alt="" />
+                  <h4>Flutter</h4>
                 </div>
-            </section>
-            <!-- services section end  -->
-            <!-- skill section start  -->
-            <section class="skill_lang_section section">
+                <div
+                  class="skill_lang"
+                  data-aos="fade-up"
+                  data-aos-duration="1100"
+                >
+                  <img src="img/html.webp" alt="" />
+                  <h4>HTML</h4>
+                </div>
+                <div
+                  class="skill_lang"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  <img src="img/css.png" alt="" />
+                  <h4>CSS</h4>
+                </div>
+                <div
+                  class="skill_lang"
+                  data-aos="fade-up"
+                  data-aos-duration="1800"
+                >
+                  <img src="img/tailwind.png" alt="" />
+                  <h4>Tailwind</h4>
+                </div>
+                <div
+                  class="skill_lang"
+                  data-aos="fade-up"
+                  data-aos-duration="1300"
+                >
+                  <img src="img/bootstrap.webp" alt="" />
+                  <h4>Bootstrap</h4>
+                </div>
+                <div
+                  class="skill_lang"
+                  data-aos="fade-up"
+                  data-aos-duration="1400"
+                >
+                  <img src="img/javascript.webp" alt="" />
+                  <h4>JavaScript</h4>
+                </div>
+                <div
+                  class="skill_lang"
+                  data-aos="fade-up"
+                  data-aos-duration="1400"
+                >
+                  <img src="img/typescript.webp" alt="" />
+                  <h4>TypeScript</h4>
+                </div>
+                <div
+                  class="skill_lang"
+                  data-aos="fade-up"
+                  data-aos-duration="1700"
+                >
+                  <img src="img/wordpress1.png" alt="" />
+                  <h4>WordPress</h4>
+                </div>
+                <div
+                  class="skill_lang"
+                  data-aos="fade-up"
+                  data-aos-duration="1800"
+                >
+                  <img src="img/github.webp" alt="" />
+                  <h4>Github</h4>
+                </div>
+                <div
+                  class="skill_lang"
+                  data-aos="fade-up"
+                  data-aos-duration="1800"
+                >
+                  <img src="img/mysql.png" alt="" />
+                  <h4>MySql</h4>
+                </div>
+                <div
+                  class="skill_lang"
+                  data-aos="fade-up"
+                  data-aos-duration="1800"
+                >
+                  <img src="img/mongodb.webp" alt="" />
+                  <h4>MongoDB</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- skill section end  -->
+        <!-- about section start  -->
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="row">
+              <div
+                class="section-title col-100"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <h2>Aboute Me</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content col-100">
                 <div class="row">
-                    <div class="col-100 section-title" data-aos="fade-up" data-aos-duration="1000">
-                        <h2>My Skill</h2>
-                    </div>
-                    <div class="col-100">
-                        <div class="row">
-                            <div class="skill_lang" data-aos="fade-up" data-aos-duration="1100">
-                                <img src="img/html.webp" alt="">
-                                <h4>HTML</h4>
-                            </div>
-                            <div class="skill_lang" data-aos="fade-up" data-aos-duration="1200">
-                                <img src="img/css.png" alt="">
-                                <h4>CSS</h4>
-                            </div>
-                            <div class="skill_lang" data-aos="fade-up" data-aos-duration="1300">
-                                <img src="img/bootstrap.webp" alt="">
-                                <h4>Bootstrap</h4>
-                            </div>
-                            <div class="skill_lang" data-aos="fade-up" data-aos-duration="1400">
-                                <img src="img/javascript.webp" alt="">
-                                <h4>JavaScript</h4>
-                            </div>
-                            <div class="skill_lang" data-aos="fade-up" data-aos-duration="1500">
-                                <img src="img/php.webp" alt="">
-                                <h4>PHP</h4>
-                            </div>
-                            <div class="skill_lang" data-aos="fade-up" data-aos-duration="1600">
-                                <img src="img/laravel.webp" alt="">
-                                <h4>Laravel</h4>
-                            </div>
-                            <div class="skill_lang" data-aos="fade-up" data-aos-duration="1700">
-                                <img src="img/wordpress1.png" alt="">
-                                <h4>WordPress</h4>
-                            </div>
-                            <div class="skill_lang" data-aos="fade-up" data-aos-duration="1800">
-                                <img src="img/illustrator.webp" alt="">
-                                <h4>Illustrator</h4>
-                            </div>
-                            <div class="skill_lang" data-aos="fade-up" data-aos-duration="1900">
-                                <img src="img/flutter.webp" alt="">
-                                <h4>Flutter</h4>
-                            </div>
-                        </div>
-                    </div>
+                  <div class="about-text col-100">
+                    <h3 data-aos="fade-up" data-aos-duration="1300">
+                      I`m <span>Md Jahid Hasan.</span>
+                    </h3>
+                    <p data-aos="fade-up" data-aos-duration="1600">
+                      I am a Full Stack Web Developer from Bangladesh with one
+                      year plus experience. I generally like to take on new
+                      challenges and like to try new things. I love to solve
+                      complex problems. I usually use HTML, CSS, Bootstrap,
+                      JavaScript and jQuery for frontend design and PHP, Laravel
+                      for backend. I have worked in Fiverr & Freelancer
+                      international marketplace . Also basic knowledge in
+                      Graphic Design . I am very dedicated to my work. I try to
+                      do my work on time at any cost.
+                    </p>
+                  </div>
                 </div>
-            </section>
-            <!-- skill section end  -->
-            <!-- about section start  -->
-            <section class="about section " id="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title col-100" data-aos="fade-up" data-aos-duration="1000">
-                            <h2>Aboute Me</h2>
-                        </div>
+                <div class="row mb-30">
+                  <div class="personal-info col-60">
+                    <div
+                      class="row"
+                      data-aos="fade-up"
+                      data-aos-duration="1300"
+                    >
+                      <div class="info-item col-50">
+                        <p>Birthday : <span> 17 Apr 2001</span></p>
+                      </div>
+                      <div class="info-item col-50">
+                        <p>Age : <span> 23</span></p>
+                      </div>
+                      <div class="info-item col-50">
+                        <p>Website : <span>www.domain.com</span></p>
+                      </div>
+                      <div class="info-item col-50">
+                        <p>Email : <span> jahid.facts@gmail.com</span></p>
+                      </div>
+                      <div class="info-item col-50">
+                        <p>Dgree : <span>CE</span></p>
+                      </div>
+                      <div class="info-item col-50">
+                        <p>Phone : <span>01762703065</span></p>
+                      </div>
+                      <div class="info-item col-50">
+                        <p>City : <span>Kurigram</span></p>
+                      </div>
+                      <div class="info-item col-50">
+                        <p>freelancer : <span>Avaiable</span></p>
+                      </div>
                     </div>
-                    <div class="row">
-                        <div class="about-content col-100">
-                            <div class="row">
-                                <div class="about-text col-100">
-                                    <h3 data-aos="fade-up" data-aos-duration="1300">I`m <span>Md Jahid Hasan.</span></h3>
-                                    <p data-aos="fade-up" data-aos-duration="1600">I am a Full Stack Web Developer from Bangladesh with
-                                        one year plus experience. I generally like to take on new challenges and like to try
-                                        new things. I love to solve complex problems. I usually use HTML, CSS,
-                                        Bootstrap, JavaScript and jQuery for frontend design and PHP, Laravel for
-                                        backend. I have worked in Fiverr & Freelancer international marketplace . Also
-                                        basic knowledge in Graphic Design . I am very dedicated to my work. I try to do
-                                        my work on time at any cost.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row mb-30">
-                                <div class="personal-info col-60">
-                                    <div class="row" data-aos="fade-up" data-aos-duration="1300">
-                                        <div class="info-item col-50">
-                                            <p>Birthday : <span> 17 Apr 2001</span></p>
-                                        </div>
-                                        <div class="info-item col-50">
-                                            <p>Age : <span> 23</span></p>
-                                        </div>
-                                        <div class="info-item col-50">
-                                            <p>Website : <span>www.domain.com</span></p>
-                                        </div>
-                                        <div class="info-item col-50">
-                                            <p>Email : <span> jahid.facts@gmail.com</span></p>
-                                        </div>
-                                        <div class="info-item col-50">
-                                            <p>Dgree : <span>CE</span></p>
-                                        </div>
-                                        <div class="info-item col-50">
-                                            <p>Phone : <span>01762703065</span></p>
-                                        </div>
-                                        <div class="info-item col-50">
-                                            <p>City : <span>Kurigram</span></p>
-                                        </div>
-                                        <div class="info-item col-50">
-                                            <p>freelancer : <span>Avaiable</span></p>
-                                        </div>
-                                    </div>
-                                    <!-- <div class="row">
+                    <!-- <div class="row">
                                         <div class="buttons">
                                             <a href="#" class="btn">Download CV</a>
                                             <a href="#" class="btn">Hire Me</a>
                                         </div>
                                     </div> -->
-                                </div>
-                                <div class="skills col-40">
-                                    <div class="row" data-aos="fade-up" data-aos-duration="1600">
-                                        <div class="skill-item col-100">
-                                            <div class="progress-title d-flex-space-b">
-                                                <h5>Web Design</h5>
-                                                <p class="progress-percent">75%</p>
-                                            </div>
-                                            <div class="progress">
-                                                <div class="bar" style="width:75%">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item col-100">
-                                            <div class="progress-title d-flex-space-b">
-                                                <h5>Web Development</h5>
-                                                <p class="progress-percent">80%</p>
-                                            </div>
-                                            <div class="progress">
-                                                <div class="bar" style="width:80%">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item col-100">
-                                            <div class="progress-title d-flex-space-b">
-                                                <h5>Graphic Design</h5>
-                                                <p class="progress-percent">70%</p>
-                                            </div>
-                                            <div class="progress">
-                                                <div class="bar" style="width:70%">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row" data-aos="fade-up" data-aos-duration="1000">
-                                <div class="education col-50">
-                                    <h3 class="title">Education</h3>
-                                    <div class="row">
-                                        <div class="timeline-box col-100">
-                                            <div class="timeline shadow-dark">
-                                                <!-- timeline item  -->
-                                                <div class="timeline-item" data-aos="fade-up" data-aos-duration="1200">
-                                                    <div class="circle-dot"></div>
-                                                    <div class="d-flex-space-b">
-                                                        <h4 class="timeline-title">Diploma in engieenering</h4>
-                                                        <h3 class="timeline-date"><i class="fa fa-calendar"></i> 2022 -
-                                                            2023
-                                                        </h3>
-                                                    </div>
-                                                    <h4 class="timeline-title">Vision Polytechnic Institute, Kurigram
-                                                    </h4>
-                                                    <div class="education-text">
-                                                        <tr>
-                                                            <strong>Technology : </strong> <span>
-                                                                Computer</span><br>
-                                                            <strong>Board &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</strong><span> Dhaka</span>
-                                                        </tr>
-                                                    </div>
-                                                </div>
-                                                <div class="timeline-item" data-aos="fade-up" data-aos-duration="1200">
-                                                    <div class="circle-dot"></div>
-                                                    <div class="d-flex-space-b">
-                                                        <h4 class="timeline-title">Secondary School Certificate</h4>
-                                                        <h3 class="timeline-date"><i class="fa fa-calendar"></i> 2018
-                                                        </h3>
-                                                    </div>
-                                                    <h4 class="timeline-title">Sonalur Kuti High School
-                                                    </h4>
-                                                    <div class="education-text">
-                                                        <tr>
-                                                            <strong>Group : </strong><span> Science</span><br>
-                                                            <strong>Board &nbsp;: </strong><span> Dinajpur</span>
-                                                        </tr>
-                                                    </div>
-                                                </div>
-                                                <div class="timeline-item" data-aos="fade-up" data-aos-duration="1400">
-                                                    <div class="circle-dot"></div>
-                                                    <div class="d-flex-space-b">
-                                                        <h4 class="timeline-title">Junior School Certificate
-                                                        </h4>
-                                                        <h3 class="timeline-date"><i class="fa fa-calendar"></i> 2015
-                                                        </h3>
-                                                    </div>
-                                                    <h4 class="timeline-title">Sonalur Kuti High School
-
-                                                    </h4>
-                                                    <div class="education-text">
-                                                        <tr>
-                                                            <strong>Group : </strong><span> N/A</span><br>
-                                                            <strong>Board &nbsp;: </strong><span> Dinajpur</span>
-                                                        </tr>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="experience col-50" data-aos="fade-up" data-aos-duration="1400">
-                                    <h3 class="title">Experience</h3>
-                                    <div class="row">
-                                        <div class="timeline-box col-100">
-                                            <div class="timeline shadow-dark">
-                                                <!-- Experience  -->
-
-                                                <div class="timeline-item" data-aos="fade-up" data-aos-duration="1400">
-                                                    <div class="circle-dot"></div>
-                                                    <div class="d-flex-space-b">
-                                                        <h4 class="timeline-title">Ipsita Computer PTE. LTD.</h4>
-                                                        <h3 class="timeline-date"><i class="fa fa-calendar"></i> Jan 2023 - Present
-                                                        </h3>
-                                                    </div>
-                                                    <h5 class="dasignation">Junior Programmer</h5>
-                                                    <p class="timeline-text">I am working as a junior developer in this company.  Here we provide all types of web application design and development for our clients.  Such as e-commerce web applications, inventory management systems, etc</p>
-                                                </div>
-                                                <div class="timeline-item" data-aos="fade-up" data-aos-duration="1400">
-                                                    <div class="circle-dot"></div>
-                                                    <div class="d-flex-space-b">
-                                                        <h4 class="timeline-title">Ipsita Computer PTE. LTD.</h4>
-                                                        <h3 class="timeline-date"><i class="fa fa-calendar"></i> 10 Oct 2022 - 9 Jan 2023
-                                                        </h3>
-                                                    </div>
-                                                    <h5 class="dasignation">Industrial Attachment</h5>
-                                                    <p class="timeline-text">Learned HTML, CSS, Bootstrap, JavaScript, and jQuery for frontend and PHP, Laravel for backend, and developed one project.</p>
-                                                </div>
-                                                <div class="timeline-item" data-aos="fade-up" data-aos-duration="1400">
-                                                    <div class="circle-dot"></div>
-                                                    <div class="d-flex-space-b">
-                                                        <h4 class="timeline-title">Learning & Earning Development Project<br>
-                                                             </h4>
-                                                        <h3 class="timeline-date"><i class="fa fa-calendar"></i> Aug 2020
-                                                        </h3>
-                                                    </div>
-                                                    <h5 class="dasignation">Web Design & Development</h5>
-                                                    <p class="timeline-text">( ICT Division )Learning and earning is a government project which is monitoring by the ICT ministry of Bangladesh government and funded by the United Nation.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                  </div>
+                  <div class="skills col-40">
+                    <div
+                      class="row"
+                      data-aos="fade-up"
+                      data-aos-duration="1600"
+                    >
+                      <div class="skill-item col-100">
+                        <div class="progress-title d-flex-space-b">
+                          <h5>Web Design</h5>
+                          <p class="progress-percent">75%</p>
                         </div>
+                        <div class="progress">
+                          <div class="bar" style="width: 75%"></div>
+                        </div>
+                      </div>
+                      <div class="skill-item col-100">
+                        <div class="progress-title d-flex-space-b">
+                          <h5>Web Development</h5>
+                          <p class="progress-percent">80%</p>
+                        </div>
+                        <div class="progress">
+                          <div class="bar" style="width: 80%"></div>
+                        </div>
+                      </div>
+                      <div class="skill-item col-100">
+                        <div class="progress-title d-flex-space-b">
+                          <h5>Graphic Design</h5>
+                          <p class="progress-percent">70%</p>
+                        </div>
+                        <div class="progress">
+                          <div class="bar" style="width: 70%"></div>
+                        </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </section>
-            <!-- about section end  -->
-            <!-- portfolio section start  -->
-            <section class="work section" id="portfolio">
                 <div class="row" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="section-title col-100">
-                        <h2 data-heading="my Portfolio" class="section_title">Recent Work</h2>
-                    </div>
-                </div>
+                  <div class="education col-50">
+                    <h3 class="title">Education</h3>
+                    <div class="row">
+                      <div class="timeline-box col-100">
+                        <div class="timeline shadow-dark">
+                          <!-- timeline item  -->
 
-                <div class="work_filter">
-                    <span class="work_item work_active" data-filter="all" data-aos="fade-up" data-aos-duration="1000">All</span>
-                    <span class="work_item" data-filter=".web" data-aos="fade-up" data-aos-duration="1300">Web</span>
-                    <span class="work_item" data-filter=".app" data-aos="fade-up" data-aos-duration="1600">App</span>
-                    <span class="work_item" data-filter=".design" data-aos="fade-up" data-aos-duration="1700">Design</span>
+                          <div
+                            class="timeline-item"
+                            data-aos="fade-up"
+                            data-aos-duration="1400"
+                          >
+                            <div class="circle-dot"></div>
+                            <div class="d-flex-space-b">
+                              <h4 class="timeline-title">
+                                Bachelor of Science (B.Sc)
+                              </h4>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> January 2024 -
+                                Present
+                              </h3>
+                            </div>
+                            <h4 class="timeline-title">
+                              Sonargaon University (SU)
+                            </h4>
+                            <div class="education-text">
+                              <tr>
+                                <strong>Group : </strong
+                                ><span>
+                                  Computer Science and Engineering (CSE)</span
+                                ><br />
+                              </tr>
+                            </div>
+                          </div>
+                          <div
+                            class="timeline-item"
+                            data-aos="fade-up"
+                            data-aos-duration="1200"
+                          >
+                            <div class="circle-dot"></div>
+                            <div class="d-flex-space-b">
+                              <h4 class="timeline-title">
+                                Diploma in engieenering
+                              </h4>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> 2022 - 2023
+                              </h3>
+                            </div>
+                            <h4 class="timeline-title">
+                              Vision Polytechnic Institute, Kurigram
+                            </h4>
+                            <div class="education-text">
+                              <tr>
+                                <strong>Technology : </strong>
+                                <span> Computer Engineering</span
+                                ><br />
+                                <strong
+                                  >Board
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</strong
+                                ><span> Dhaka</span>
+                              </tr>
+                            </div>
+                          </div>
+                          <div
+                            class="timeline-item"
+                            data-aos="fade-up"
+                            data-aos-duration="1200"
+                          >
+                            <div class="circle-dot"></div>
+                            <div class="d-flex-space-b">
+                              <h4 class="timeline-title">
+                                Secondary School Certificate
+                              </h4>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> 2018
+                              </h3>
+                            </div>
+                            <h4 class="timeline-title">
+                              Sonalur Kuti High School
+                            </h4>
+                            <div class="education-text">
+                              <tr>
+                                <strong>Group : </strong
+                                ><span> Science</span
+                                ><br />
+                                <strong>Board &nbsp;: </strong
+                                ><span> Dinajpur</span>
+                              </tr>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="experience col-50"
+                    data-aos="fade-up"
+                    data-aos-duration="1400"
+                  >
+                    <h3 class="title">Experience</h3>
+                    <div class="row">
+                      <div class="timeline-box col-100">
+                        <div class="timeline shadow-dark">
+                          <!-- Experience  -->
+
+                          <div
+                            class="timeline-item"
+                            data-aos="fade-up"
+                            data-aos-duration="1400"
+                          >
+                            <div class="circle-dot"></div>
+                            <div class="d-flex-space-b">
+                              <h4 class="timeline-title">
+                                Ipsita Computer PTE. LTD.
+                              </h4>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> Jan 2023 -
+                                Present
+                              </h3>
+                            </div>
+                            <h5 class="dasignation">Junior Programmer</h5>
+                            <p class="timeline-text">
+                              I am working as a junior developer in this
+                              company. Here we provide all types of web
+                              application design and development for our
+                              clients. Such as e-commerce web applications,
+                              inventory management systems, etc
+                            </p>
+                          </div>
+                          <div
+                            class="timeline-item"
+                            data-aos="fade-up"
+                            data-aos-duration="1400"
+                          >
+                            <div class="circle-dot"></div>
+                            <div class="d-flex-space-b">
+                              <h4 class="timeline-title">
+                                Ipsita Computer PTE. LTD.
+                              </h4>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> 10 Oct 2022 - 9
+                                Jan 2023
+                              </h3>
+                            </div>
+                            <h5 class="dasignation">Industrial Attachment</h5>
+                            <p class="timeline-text">
+                              Learned HTML, CSS, Bootstrap, JavaScript, and
+                              jQuery for frontend and PHP, Laravel for backend,
+                              and developed one project.
+                            </p>
+                          </div>
+                          <div
+                            class="timeline-item"
+                            data-aos="fade-up"
+                            data-aos-duration="1400"
+                          >
+                            <div class="circle-dot"></div>
+                            <div class="d-flex-space-b">
+                              <h4 class="timeline-title">
+                                Learning & Earning Development Project<br />
+                              </h4>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> Aug 2020
+                              </h3>
+                            </div>
+                            <h5 class="dasignation">
+                              Web Design & Development
+                            </h5>
+                            <p class="timeline-text">
+                              ( ICT Division )Learning and earning is a
+                              government project which is monitoring by the ICT
+                              ministry of Bangladesh government and funded by
+                              the United Nation.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="work_container row container1 grid" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="work_card shadow-dark web mix col-33">
-                        <a href="https://www.blcf.sg/login" target="_blank">
-                            <img src="img/loginpage.jpg" alt="" class="work_img">
-                            <div class="d-flex-space-b">
-                                <h3 class="work_title">Web Design & Development</h3>
-                                <i class="fa-solid fa-link porfolio_de_icon"></i>
-                            </div>
-                        </a>
-                        <span class="work_btn">View Info</span>
-                        <div class="portfolio_item_details">
-                            <h3 class="details_title">App development services</h3>
-                            <p class="details_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Labore error quia, maxime tempora sapiente numquam distinctio asperiores consequuntur
-                                officiis odit id consequatur,</p>
-                            <ul class="detalis_info">
-                                <li>Created - <span> 4 dec 2023</span></li>
-                                <li>Technology - <span> Html css</span></li>
-                                <li>Role - <span>Forntend</span></li>
-                                <li>view - <span><a href=""> www.domain.com</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="work_card shadow-dark web mix col-33">
-                        <a href="https://jahid-facts.github.io/Arsha/" target="_blank">
-                            <img src="img/2.jpg" alt="" class="work_img">
-                            <div class="d-flex-space-b">
-                                <h3 class="work_title">Web Design & Development</h3>
-                                <i class="fa-solid fa-link porfolio_de_icon"></i>
-                            </div>
-                        </a>
-                        <span class="work_btn">View Info</span>
-                        <div class="portfolio_item_details">
-                            <h3 class="details_title">Web Design & Development</h3>
-                            <p class="details_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Labore error quia, maxime tempora sapiente numquam distinctio asperiores consequuntur
-                                officiis odit id consequatur,</p>
-                            <ul class="detalis_info">
-                                <li>Created - <span> 4 dec 2023</span></li>
-                                <li>Technology - <span> Html css</span></li>
-                                <li>Role - <span>Forntend</span></li>
-                                <li>view - <span><a href="https://jahid-facts.github.io/Arsha/"> Arsha</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="work_card shadow-dark app mix col-33">
-                        <a>
-                            <img src="img/app_ui.jpg" alt="" class="work_img">
-                            <div class="d-flex-space-b">
-                                <h3 class="work_title">App development</h3>
-                                <i class="fa-solid fa-link porfolio_de_icon"></i>
-                            </div>
-                        </a>
-                        <span class="work_btn">View Info</span>
-                        <div class="portfolio_item_details">
-                            <h3 class="details_title">App development services</h3>
-                            <p class="details_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Labore error quia, maxime tempora sapiente numquam distinctio asperiores consequuntur
-                                officiis odit id consequatur,</p>
-                            <ul class="detalis_info">
-                                <li>Created - <span> 4 dec 2023</span></li>
-                                <li>Technology - <span> Html css</span></li>
-                                <li>Role - <span>Forntend</span></li>
-                                <li>view - <span><a href=""> www.domain.com</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="work_card shadow-dark web mix col-33">
-                        <a href="https://jahid-facts.github.io/FlexStart/" target="_blank">
-                            <img src="img/1.jpg" alt="" class="work_img">
-                            <div class="d-flex-space-b">
-                                <h3 class="work_title">Web Design & Development</h3>
-                                <i class="fa-solid fa-link porfolio_de_icon"></i>
-                            </div>
-                        </a>
-                        <span class="work_btn">View Info</span>
-                        <div class="portfolio_item_details">
-                            <h3 class="details_title">Web Design & Development</h3>
-                            <p class="details_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Labore error quia, maxime tempora sapiente numquam distinctio asperiores consequuntur
-                                officiis odit id consequatur,</p>
-                            <ul class="detalis_info">
-                                <li>Created - <span> 4 dec 2023</span></li>
-                                <li>Technology - <span> Html css</span></li>
-                                <li>Role - <span>Forntend</span></li>
-                                <li>view - <span><a href="https://jahid-facts.github.io/FlexStart/"> FlexStart</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="work_card shadow-dark web mix col-33">
-                        <a href="https://www.blcf.sg" target="_blank">
-                            <img src="img/blcf.jpg" alt="" class="work_img">
-                            <div class="d-flex-space-b">
-                                <h3 class="work_title">Web Design & Development</h3>
-                                <i class="fa-solid fa-link porfolio_de_icon"></i>
-                            </div>
-                        </a>
-                        <span class="work_btn">View Info</span>
-                        <div class="portfolio_item_details">
-                            <h3 class="details_title">App development services</h3>
-                            <p class="details_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Labore error quia, maxime tempora sapiente numquam distinctio asperiores consequuntur
-                                officiis odit id consequatur,</p>
-                            <ul class="detalis_info">
-                                <li>Created - <span> 4 dec 2023</span></li>
-                                <li>Technology - <span> Html css</span></li>
-                                <li>Role - <span>Forntend</span></li>
-                                <li>view - <span><a href=""> www.domain.com</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="work_card shadow-dark app mix col-33">
-                        <a>
-                            <img src="img/appChart.jpg" alt="" class="work_img">
-                            <div class="d-flex-space-b">
-                                <h3 class="work_title">App FlowChart</h3>
-                                <i class="fa-solid fa-link porfolio_de_icon"></i>
-                            </div>
-                        </a>
-                        <span class="work_btn">View Info</span>
-                        <div class="portfolio_item_details">
-                            <h3 class="details_title">App development Forntend</h3>
-                            <p class="details_description">Forntend Lorem ipsum dolor sit amet consectetur, adipisicing
-                                elit. Labore error quia, maxime tempora sapiente numquam distinctio asperiores
-                                consequuntur officiis odit id consequatur,</p>
-                            <ul class="detalis_info">
-                                <li>Created - <span> 4 dec 2023</span></li>
-                                <li>Technology - <span> Html css</span></li>
-                                <li>Role - <span>Forntend</span></li>
-                                <li>view - <span><a href=""> www.domain.com</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="work_card shadow-dark web mix col-33">
-                        <a href="https://jahid-facts.github.io/Logis/" target="_blank">
-                            <img src="img/3.jpg" alt="" class="work_img">
-                            <div class="d-flex-space-b">
-                                <h3 class="work_title">Web Design & Development</h3>
-                                <i class="fa-solid fa-link porfolio_de_icon"></i>
-                            </div>
-                        </a>
-                        <span class="work_btn">View Info</span>
-                        <div class="portfolio_item_details">
-                            <h3 class="details_title">Web Design & Development</h3>
-                            <p class="details_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Labore error quia, maxime tempora sapiente numquam distinctio asperiores consequuntur
-                                officiis odit id consequatur,</p>
-                            <ul class="detalis_info">
-                                <li>Created - <span> 4 dec 2023</span></li>
-                                <li>Technology - <span> Html css</span></li>
-                                <li>Role - <span>Forntend</span></li>
-                                <li>view - <span><a href="https://jahid-facts.github.io/Logis/"> Logis</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="work_card shadow-dark web mix col-33">
-                        <a href="https://jahid-facts.github.io/job-portal/" target="_blank">
-                            <img src="img/job.jpg" alt="" class="work_img">
-                            <div class="d-flex-space-b">
-                                <h3 class="work_title">Web design & Development</h3>
-                                <i class="fa-solid fa-link porfolio_de_icon"></i>
-                            </div>
-                        </a>
-                        <span class="work_btn">View Info</span>
-                        <div class="portfolio_item_details">
-                            <h3 class="details_title"></h3>
-                            <p class="details_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Labore error quia, maxime tempora sapiente numquam distinctio asperiores consequuntur
-                                officiis odit id consequatur,</p>
-                            <ul class="detalis_info">
-                                <li>Created - <span> 4 dec 2023</span></li>
-                                <li>Technology - <span> Html css</span></li>
-                                <li>Role - <span>Forntend</span></li>
-                                <li>view - <span><a href="https://jahid-facts.github.io/job-portal/"> job-portal</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="work_card shadow-dark web mix col-33">
-                        <a href="https://www.gaanjanala.com/" target="_blank">
-                            <img src="img/gaanjanala.jpg" alt="" class="work_img">
-                            <div class="d-flex-space-b">
-                                <h3 class="work_title">Web Design & Development</h3>
-                                <i class="fa-solid fa-link porfolio_de_icon"></i>
-                            </div>
-                        </a>
-                        <span class="work_btn">View Info</span>
-                        <div class="portfolio_item_details">
-                            <h3 class="details_title">App development services</h3>
-                            <p class="details_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Labore error quia, maxime tempora sapiente numquam distinctio asperiores consequuntur
-                                officiis odit id consequatur,</p>
-                            <ul class="detalis_info">
-                                <li>Created - <span> 4 dec 2023</span></li>
-                                <li>Technology - <span> Html css</span></li>
-                                <li>Role - <span>Forntend</span></li>
-                                <li>view - <span><a href=""> www.domain.com</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- portfolio section end  -->
-            <!-- portfolio popup section start  -->
-            <div class="portfolio_popup">
-                <div class="portfolio_popup_inner">
-                    <div class="portfolio_popup_content row grid">
-                        <span class="portfolio_popup_close">
-                            <i class="fa-solid fa-xmark"></i>
-                        </span>
-                        <div class="pp_thumbail col-50">
-                            <img src="img/preview.jpg" alt="" class="portfolio_popup_img">
-                        </div>
-                        <div class="portfolio_popup_info col-50">
-                            <div class="porfolio_popup_subtitle">
-                                Featured - <span>Design</span>
-                            </div>
-                            <div class="porfolio_popup_body">
-                                <h3 class="details_title">App development services</h3>
-                                <p class="details_description">adipisicing elit. Labore error quia, maxime tempora
-                                    sapiente numquam distinctio asperiores consequuntur officiis odit id consequatur,
-                                </p>
-                                <ul class="detalis_info">
-                                    <li>Created - <span> 4 dec 2023</span></li>
-                                    <li>Technology - <span> Html css</span></li>
-                                    <li>Role - <span>Forntend</span></li>
-                                    <li>view - <span><a href=""> www.domain.com</a></span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-            <!-- portfolio popup section end  -->
-            <!-- contact section start  -->
-            <section class="contact section" id="contact">
-                <div class="row">
-                    <div class="col-100 section-title" data-aos="fade-up" data-aos-duration="1000">
-                        <h2>Get In Touch</h2>
-                    </div>
-                    <div class="col-100"data-aos="fade-up" data-aos-duration="1000">
-                        <div class="contact_heading">
-                            <h2>Have you any Questions</h2>
-                            <span>I'm at your services</span>
-                        </div>
-                    </div>
-                    <div class="col-30" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="contact_info_text">
-                            <i class="fa-solid fa-phone-volume"></i>
-                            <span>Call us on</span>
-                            <p>01762703065</p>
-                        </div>
-                    </div>
-                    <div class="col-30" data-aos="fade-up" data-aos-duration="1300">
-                        <div class="contact_info_text">
-                            <i class="fa-solid fa-envelope"></i>
-                            <span>Email</span>
-                            <p>jahid.facts@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="col-30" data-aos="fade-up" data-aos-duration="1600">
-                        <div class="contact_info_text">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <span>Location</span>
-                            <p>Kurigram, Rangpur</p>
-                        </div>
-                    </div>
-                    <div class="col-30" data-aos="fade-up" data-aos-duration="1800">
-                        <div class="contact_info_text my-10">
-                            <i class="fa-solid fa-globe"></i>
-                            <span>Website</span>
-                            <p>jahid-facts.github.io</p>
-                        </div>
-                    </div>
-                    <div class="col-100">
-                        <div class="contact_heading" data-aos="fade-up" data-aos-duration="1000">
-                            <h2>Send me an email</h2>
-                            <span>I'm responsive to messages</span>
-                        </div>
-                    </div>
-                    <div class="col-100">
-                        <form action="" class="contact_form">
-                            <div class="row">
-                                <div class="col-50" data-aos="fade-up" data-aos-duration="1000">
-                                    <label class="custom-field two">
-                                        <input type="text" placeholder="&nbsp;" />
-                                        <span class="placeholder">Name</span>
-                                    </label>
-                                </div>
-                                <div class="col-50" data-aos="fade-up" data-aos-duration="1300">
-                                    <label class="custom-field two">
-                                        <input type="text" placeholder="&nbsp;" />
-                                        <span class="placeholder">Email</span>
-                                    </label>
-                                </div>
-                                <div class="col-100" data-aos="fade-up" data-aos-duration="1200">
-                                    <label class="custom-field two">
-                                        <textarea type="text" cols="30" rows="10" placeholder="&nbsp;"></textarea>
-                                        <span class="placeholder">Description</span>
-                                    </label>
-                                </div>
-                                <div class="col-100" data-aos="fade-up" data-aos-duration="1200" style="margin-top: 15px;">
-                                    <button type="submit" class="btn">Submit</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+          </div>
+        </section>
+        <!-- about section end  -->
+        <!-- portfolio section start  -->
+        <section class="work section" id="portfolio">
+          <div class="row" data-aos="fade-up" data-aos-duration="1000">
+            <div class="section-title col-100">
+              <h2 data-heading="my Portfolio" class="section_title">
+                Recent Work
+              </h2>
+            </div>
+          </div>
+
+          <div class="work_filter">
+            <span
+              class="work_item work_active"
+              data-filter="all"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              >All</span
+            >
+            <span
+              class="work_item"
+              data-filter=".web"
+              data-aos="fade-up"
+              data-aos-duration="1300"
+              >Web</span
+            >
+            <span
+              class="work_item"
+              data-filter=".app"
+              data-aos="fade-up"
+              data-aos-duration="1600"
+              >App</span
+            >
+            <span
+              class="work_item"
+              data-filter=".design"
+              data-aos="fade-up"
+              data-aos-duration="1700"
+              >Design</span
+            >
+          </div>
+          <div
+            class="work_container row container1 grid"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div class="work_card shadow-dark web mix col-33">
+              <a href="https://www.blcf.sg/login" target="_blank">
+                <img src="img/loginpage.jpg" alt="" class="work_img" />
+                <div class="d-flex-space-b">
+                  <h3 class="work_title">Web Design & Development</h3>
+                  <i class="fa-solid fa-link porfolio_de_icon"></i>
                 </div>
-            </section>
-            <footer class="section footer_section">
-                <div class="row">
-                    <div class="col-100">
-                        <p>Design & Developed By --- <a href="https://www.facebook.com/jahid.facts" target="_blank">Md Jahid Hasan <i class="fas fa-smile"></i></a></p>
-                    </div>
+              </a>
+              <span class="work_btn">View Info</span>
+              <div class="portfolio_item_details">
+                <h3 class="details_title">App development services</h3>
+                <p class="details_description">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Labore error quia, maxime tempora sapiente numquam distinctio
+                  asperiores consequuntur officiis odit id consequatur,
+                </p>
+                <ul class="detalis_info">
+                  <li>Created - <span> 4 dec 2023</span></li>
+                  <li>Technology - <span> Html css</span></li>
+                  <li>Role - <span>Forntend</span></li>
+                  <li>
+                    view - <span><a href=""> www.domain.com</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="work_card shadow-dark web mix col-33">
+              <a href="https://jahid-facts.github.io/Arsha/" target="_blank">
+                <img src="img/2.jpg" alt="" class="work_img" />
+                <div class="d-flex-space-b">
+                  <h3 class="work_title">Web Design & Development</h3>
+                  <i class="fa-solid fa-link porfolio_de_icon"></i>
                 </div>
-            </footer>
-            <!-- <i class="fa-regular fa-paper-plane"></i> -->
-            <!-- contact section end  -->
+              </a>
+              <span class="work_btn">View Info</span>
+              <div class="portfolio_item_details">
+                <h3 class="details_title">Web Design & Development</h3>
+                <p class="details_description">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Labore error quia, maxime tempora sapiente numquam distinctio
+                  asperiores consequuntur officiis odit id consequatur,
+                </p>
+                <ul class="detalis_info">
+                  <li>Created - <span> 4 dec 2023</span></li>
+                  <li>Technology - <span> Html css</span></li>
+                  <li>Role - <span>Forntend</span></li>
+                  <li>
+                    view -
+                    <span
+                      ><a href="https://jahid-facts.github.io/Arsha/">
+                        Arsha</a
+                      ></span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="work_card shadow-dark app mix col-33">
+              <a>
+                <img src="img/app_ui.jpg" alt="" class="work_img" />
+                <div class="d-flex-space-b">
+                  <h3 class="work_title">App development</h3>
+                  <i class="fa-solid fa-link porfolio_de_icon"></i>
+                </div>
+              </a>
+              <span class="work_btn">View Info</span>
+              <div class="portfolio_item_details">
+                <h3 class="details_title">App development services</h3>
+                <p class="details_description">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Labore error quia, maxime tempora sapiente numquam distinctio
+                  asperiores consequuntur officiis odit id consequatur,
+                </p>
+                <ul class="detalis_info">
+                  <li>Created - <span> 4 dec 2023</span></li>
+                  <li>Technology - <span> Html css</span></li>
+                  <li>Role - <span>Forntend</span></li>
+                  <li>
+                    view - <span><a href=""> www.domain.com</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="work_card shadow-dark web mix col-33">
+              <a
+                href="https://jahid-facts.github.io/FlexStart/"
+                target="_blank"
+              >
+                <img src="img/1.jpg" alt="" class="work_img" />
+                <div class="d-flex-space-b">
+                  <h3 class="work_title">Web Design & Development</h3>
+                  <i class="fa-solid fa-link porfolio_de_icon"></i>
+                </div>
+              </a>
+              <span class="work_btn">View Info</span>
+              <div class="portfolio_item_details">
+                <h3 class="details_title">Web Design & Development</h3>
+                <p class="details_description">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Labore error quia, maxime tempora sapiente numquam distinctio
+                  asperiores consequuntur officiis odit id consequatur,
+                </p>
+                <ul class="detalis_info">
+                  <li>Created - <span> 4 dec 2023</span></li>
+                  <li>Technology - <span> Html css</span></li>
+                  <li>Role - <span>Forntend</span></li>
+                  <li>
+                    view -
+                    <span
+                      ><a href="https://jahid-facts.github.io/FlexStart/">
+                        FlexStart</a
+                      ></span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="work_card shadow-dark web mix col-33">
+              <a href="https://www.blcf.sg" target="_blank">
+                <img src="img/blcf.jpg" alt="" class="work_img" />
+                <div class="d-flex-space-b">
+                  <h3 class="work_title">Web Design & Development</h3>
+                  <i class="fa-solid fa-link porfolio_de_icon"></i>
+                </div>
+              </a>
+              <span class="work_btn">View Info</span>
+              <div class="portfolio_item_details">
+                <h3 class="details_title">App development services</h3>
+                <p class="details_description">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Labore error quia, maxime tempora sapiente numquam distinctio
+                  asperiores consequuntur officiis odit id consequatur,
+                </p>
+                <ul class="detalis_info">
+                  <li>Created - <span> 4 dec 2023</span></li>
+                  <li>Technology - <span> Html css</span></li>
+                  <li>Role - <span>Forntend</span></li>
+                  <li>
+                    view - <span><a href=""> www.domain.com</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="work_card shadow-dark app mix col-33">
+              <a>
+                <img src="img/appChart.jpg" alt="" class="work_img" />
+                <div class="d-flex-space-b">
+                  <h3 class="work_title">App FlowChart</h3>
+                  <i class="fa-solid fa-link porfolio_de_icon"></i>
+                </div>
+              </a>
+              <span class="work_btn">View Info</span>
+              <div class="portfolio_item_details">
+                <h3 class="details_title">App development Forntend</h3>
+                <p class="details_description">
+                  Forntend Lorem ipsum dolor sit amet consectetur, adipisicing
+                  elit. Labore error quia, maxime tempora sapiente numquam
+                  distinctio asperiores consequuntur officiis odit id
+                  consequatur,
+                </p>
+                <ul class="detalis_info">
+                  <li>Created - <span> 4 dec 2023</span></li>
+                  <li>Technology - <span> Html css</span></li>
+                  <li>Role - <span>Forntend</span></li>
+                  <li>
+                    view - <span><a href=""> www.domain.com</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="work_card shadow-dark web mix col-33">
+              <a href="https://jahid-facts.github.io/Logis/" target="_blank">
+                <img src="img/3.jpg" alt="" class="work_img" />
+                <div class="d-flex-space-b">
+                  <h3 class="work_title">Web Design & Development</h3>
+                  <i class="fa-solid fa-link porfolio_de_icon"></i>
+                </div>
+              </a>
+              <span class="work_btn">View Info</span>
+              <div class="portfolio_item_details">
+                <h3 class="details_title">Web Design & Development</h3>
+                <p class="details_description">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Labore error quia, maxime tempora sapiente numquam distinctio
+                  asperiores consequuntur officiis odit id consequatur,
+                </p>
+                <ul class="detalis_info">
+                  <li>Created - <span> 4 dec 2023</span></li>
+                  <li>Technology - <span> Html css</span></li>
+                  <li>Role - <span>Forntend</span></li>
+                  <li>
+                    view -
+                    <span
+                      ><a href="https://jahid-facts.github.io/Logis/">
+                        Logis</a
+                      ></span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="work_card shadow-dark web mix col-33">
+              <a
+                href="https://jahid-facts.github.io/job-portal/"
+                target="_blank"
+              >
+                <img src="img/job.jpg" alt="" class="work_img" />
+                <div class="d-flex-space-b">
+                  <h3 class="work_title">Web design & Development</h3>
+                  <i class="fa-solid fa-link porfolio_de_icon"></i>
+                </div>
+              </a>
+              <span class="work_btn">View Info</span>
+              <div class="portfolio_item_details">
+                <h3 class="details_title"></h3>
+                <p class="details_description">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Labore error quia, maxime tempora sapiente numquam distinctio
+                  asperiores consequuntur officiis odit id consequatur,
+                </p>
+                <ul class="detalis_info">
+                  <li>Created - <span> 4 dec 2023</span></li>
+                  <li>Technology - <span> Html css</span></li>
+                  <li>Role - <span>Forntend</span></li>
+                  <li>
+                    view -
+                    <span
+                      ><a href="https://jahid-facts.github.io/job-portal/">
+                        job-portal</a
+                      ></span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="work_card shadow-dark web mix col-33">
+              <a href="https://www.gaanjanala.com/" target="_blank">
+                <img src="img/gaanjanala.jpg" alt="" class="work_img" />
+                <div class="d-flex-space-b">
+                  <h3 class="work_title">Web Design & Development</h3>
+                  <i class="fa-solid fa-link porfolio_de_icon"></i>
+                </div>
+              </a>
+              <span class="work_btn">View Info</span>
+              <div class="portfolio_item_details">
+                <h3 class="details_title">App development services</h3>
+                <p class="details_description">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Labore error quia, maxime tempora sapiente numquam distinctio
+                  asperiores consequuntur officiis odit id consequatur,
+                </p>
+                <ul class="detalis_info">
+                  <li>Created - <span> 4 dec 2023</span></li>
+                  <li>Technology - <span> Html css</span></li>
+                  <li>Role - <span>Forntend</span></li>
+                  <li>
+                    view - <span><a href=""> www.domain.com</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- portfolio section end  -->
+        <!-- portfolio popup section start  -->
+        <div class="portfolio_popup">
+          <div class="portfolio_popup_inner">
+            <div class="portfolio_popup_content row grid">
+              <span class="portfolio_popup_close">
+                <i class="fa-solid fa-xmark"></i>
+              </span>
+              <div class="pp_thumbail col-50">
+                <img src="img/preview.jpg" alt="" class="portfolio_popup_img" />
+              </div>
+              <div class="portfolio_popup_info col-50">
+                <div class="porfolio_popup_subtitle">
+                  Featured - <span>Design</span>
+                </div>
+                <div class="porfolio_popup_body">
+                  <h3 class="details_title">App development services</h3>
+                  <p class="details_description">
+                    adipisicing elit. Labore error quia, maxime tempora sapiente
+                    numquam distinctio asperiores consequuntur officiis odit id
+                    consequatur,
+                  </p>
+                  <ul class="detalis_info">
+                    <li>Created - <span> 4 dec 2023</span></li>
+                    <li>Technology - <span> Html css</span></li>
+                    <li>Role - <span>Forntend</span></li>
+                    <li>
+                      view - <span><a href=""> www.domain.com</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- maind content end  -->
-        <!-- style switcher start -->
-        <div class="style-switcher shadow-dark">
-            <div class="style-switcher-toggler s-icon shadow-dark" data-aos="fade-left" data-aos-duration="1000">
-                <i class="fas fa-cog fa-spin"></i>
+        <!-- portfolio popup section end  -->
+        <!-- contact section start  -->
+        <section class="contact section" id="contact">
+          <div class="row">
+            <div
+              class="col-100 section-title"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <h2>Get In Touch</h2>
             </div>
-            <div class="day-night s-icon shadow-dark" data-aos="fade-left" data-aos-duration="1000">
-                <i class="fas "></i>
+            <div class="col-100" data-aos="fade-up" data-aos-duration="1000">
+              <div class="contact_heading">
+                <h2>Have you any Questions</h2>
+                <span>I'm at your services</span>
+              </div>
             </div>
-            <h4>Theme Colors</h4>
-            <div class="colors">
-                <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-                <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-                <span class="color-3" onclick="setActiveStyle('color-3')"></span>
-                <span class="color-4" onclick="setActiveStyle('color-4')"></span>
-                <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+            <div class="col-30" data-aos="fade-up" data-aos-duration="1000">
+              <div class="contact_info_text">
+                <i class="fa-solid fa-phone-volume"></i>
+                <span>Call us on</span>
+                <p>01762703065</p>
+              </div>
             </div>
+            <div class="col-30" data-aos="fade-up" data-aos-duration="1300">
+              <div class="contact_info_text">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+                <p>jahid.facts@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-30" data-aos="fade-up" data-aos-duration="1600">
+              <div class="contact_info_text">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Location</span>
+                <p>Kurigram, Rangpur</p>
+              </div>
+            </div>
+            <div class="col-30" data-aos="fade-up" data-aos-duration="1800">
+              <div class="contact_info_text my-10">
+                <i class="fa-solid fa-globe"></i>
+                <span>Website</span>
+                <p>jahid-facts.github.io</p>
+              </div>
+            </div>
+            <div class="col-100">
+              <div
+                class="contact_heading"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <h2>Send me an email</h2>
+                <span>I'm responsive to messages</span>
+              </div>
+            </div>
+            <div class="col-100">
+              <form action="" class="contact_form">
+                <div class="row">
+                  <div
+                    class="col-50"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
+                    <label class="custom-field two">
+                      <input type="text" placeholder="&nbsp;" />
+                      <span class="placeholder">Name</span>
+                    </label>
+                  </div>
+                  <div
+                    class="col-50"
+                    data-aos="fade-up"
+                    data-aos-duration="1300"
+                  >
+                    <label class="custom-field two">
+                      <input type="text" placeholder="&nbsp;" />
+                      <span class="placeholder">Email</span>
+                    </label>
+                  </div>
+                  <div
+                    class="col-100"
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <label class="custom-field two">
+                      <textarea
+                        type="text"
+                        cols="30"
+                        rows="10"
+                        placeholder="&nbsp;"
+                      ></textarea>
+                      <span class="placeholder">Description</span>
+                    </label>
+                  </div>
+                  <div
+                    class="col-100"
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    style="margin-top: 15px"
+                  >
+                    <button type="submit" class="btn">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+        <footer class="section footer_section">
+          <div class="row">
+            <div class="col-100">
+              <p>
+                Design & Developed By ---
+                <a href="https://www.facebook.com/jahid.facts" target="_blank"
+                  >Md Jahid Hasan <i class="fas fa-smile"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+        </footer>
+        <!-- <i class="fa-regular fa-paper-plane"></i> -->
+        <!-- contact section end  -->
+      </div>
+      <!-- maind content end  -->
+      <!-- style switcher start -->
+      <div class="style-switcher shadow-dark">
+        <div
+          class="style-switcher-toggler s-icon shadow-dark"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <i class="fas fa-cog fa-spin"></i>
         </div>
-        <!-- style switcher end -->
+        <div
+          class="day-night s-icon shadow-dark"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <i class="fas"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+          <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+          <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+          <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+          <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+          <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+      </div>
+      <!-- style switcher end -->
     </div>
     <!-- main container end  -->
     <!-- js file  -->
     <script src="js/mixitup.min.js"></script>
     <!-- <script src="vendor/aos/aos.js"></script> -->
-    
-    
+
     <script src="js/script.js"></script>
     <script src="js/style-switcher.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
-</body>
-
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
